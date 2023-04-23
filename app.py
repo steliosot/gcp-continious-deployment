@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello, this is the version `1.0.0` of your flask app'
+    return 'Hello, this is the version `1.0.0` of your flask app '
 
 
 # When you containerize your Flask app using Docker and expose it to the outside world, you need to specify the host
